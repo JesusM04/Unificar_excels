@@ -179,4 +179,4 @@ def main(page: ft.Page):
     page.add(contenido_inicial)
 
 # Iniciar la aplicación
-ft.app(target=main)
+ft.app(target=main, view=ft.WEB_BROWSER)
